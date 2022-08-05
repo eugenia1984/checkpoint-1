@@ -6,7 +6,7 @@ Primer check point de la Skill Factory React con Avalith
 
 ---
 
-### Tntegrantes
+### Integrantes
 
 [Lei Breatriz Neira](https://github.com/leilabritezneira)
 
