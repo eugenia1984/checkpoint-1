@@ -14,7 +14,7 @@ Primer check point de la Skill Factory React con Avalith
 
 [German Fabris](https://github.com/gerfabris)
 
-[Leonardo Soldan](https://github.com/Sagiacuarius)
+[Leonardo Solan](https://github.com/Sagiacuarius)
 
 ---
 

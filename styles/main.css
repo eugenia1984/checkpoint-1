@@ -1,0 +1,27 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-display: swap;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+/* Header Footer*/
+header,
+footer {
+  background: rgb(0,143,122);
+  background: linear-gradient(90deg, rgba(0,143,122,1) 0%, rgba(0,137,186,1) 50%, rgba(132,94,194,1) 100%);
+}
+
+.text-white li,
+.text-white li a,
+.text-white li a:hover {
+  color: rgb(255, 255, 255);
+}
