@@ -12,10 +12,10 @@ showData = (data) => {
       <tr>
         <th scope="row">${user.id}</th>
         <td>${user.username}</td>
-        <td>${user.email}</td>
+        <td class="email-table">${user.email}</td>
         <td>${user.phone}</td>
-        <td>${user.address.city}</td>
-        <td>${user.company.name}</td>
+        <td class="city-table">${user.address.city}</td>
+        <td class="company-table">${user.company.name}</td>
       </tr>
     `);
   });
