@@ -24,10 +24,10 @@ showData = (data) => {
   document.getElementById("cards").innerHTML = body;
 };
 
-try{
+try {
   fetch(URL_USERS)
     .then((response) => response.json())
     .then((data) => showData(data));
-}catch(error){
+} catch(error) {
   throw new Error(`Ups! Error: ${error}`)
 }
