@@ -78,6 +78,11 @@ main {
   align-items: center;
 }
 
+.card{
+  min-height: 30rem;
+  box-shadow: var(--bg-violet) 0px -7px 15px;
+}
+
 @media screen and (max-width: 780px) {
   .email-table,
   .city-table,

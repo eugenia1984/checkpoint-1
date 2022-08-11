@@ -18,11 +18,15 @@ showData = (data) => {
   document.getElementById("table-row").innerHTML = body;
 };
 
-try {
-  fetch(URL_USERS)
-    .then((response) => response.json())
-    .then((data) => showData(data));
-} catch(error) {
-  throw new Error(`Ups! Error: ${error}`)
+const getUsers = async () =>{
+  try {
+    const resp = await axios(URL_USERS);
+    const dataUsers = await showData(resp.data);
+  } catch(error) {
+    throw new Error(`Error: ${error}`);
+  }
 }
+
+getUsers();
+
 
