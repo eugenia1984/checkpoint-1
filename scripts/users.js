@@ -19,12 +19,14 @@ showData = (data) => {
 };
 
 const getUsers = async () =>{
-  try{
-    const resp = await axios(URL_USERS)
-    const dataUsers = await showData(resp.data)
-  }catch(error){
-    throw new Error(`Error: ${error}`)
+  try {
+    const resp = await axios(URL_USERS);
+    const dataUsers = await showData(resp.data);
+  } catch(error) {
+    throw new Error(`Error: ${error}`);
   }
 }
-getUsers()
+
+getUsers();
+
 

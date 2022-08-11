@@ -20,15 +20,15 @@ showData = (data) => {
   document.getElementById("cards").innerHTML = body;
 };
 
-
 const getCards = async () =>{
-  try{
+  try {
     const resp = await fetch(URL_CARDS)
     const data = await resp.json()
     const dataCards = await showData(data)
 
-  }catch(error){
+  } catch(error) {
     throw new Error(`Error: ${error}`)
   }
 }
-getCards()
+
+getCards();
