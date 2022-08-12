@@ -10,7 +10,7 @@ form.addEventListener("submit", (e) =>{
   // REgEx for user and email valitation
   const regExUserName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
   const regExUserEmail = /^[a-z0-9]+(\.[_a-z0-9]+)@[a-z0-9-]+(\.[a-z0-9-]+)(\.[a-z]{2,15})$/;
-  // user NAme validation
+  // user Name validation
   if(!regExUserName.test(user)) {
     console.error("El nombre solo debe incluir letras")
   }
