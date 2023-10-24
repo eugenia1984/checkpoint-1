@@ -73,3 +73,7 @@ Objetivo de esta tarea:
 -Control de DOM por medio de JS, implementación de cards en una UI.
 
 ---
+
+Seguime en: [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
+
+---
